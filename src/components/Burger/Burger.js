@@ -1,7 +1,6 @@
 import React from "react";
 import classes from "./Burger.css";
 import BurgerIngredient from "./Burgeringredient/Burgeringredient";
-import { withRouter } from 'react-router-dom';
 
 const burger = props => {
     console.log(props);
